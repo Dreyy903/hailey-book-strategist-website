@@ -1,7 +1,7 @@
 import React from "react";
 import testimonialOne from "../assets/testimonial-one.png";
 import testimonialTwo from "../assets/testimonial-two.png";
-
+import testimonialThree from "../assets/testimonial-three.png";
 
 const Testimonials = () => {
   return (
@@ -15,7 +15,7 @@ const Testimonials = () => {
           <img
             src={testimonialOne}
             alt="Client Testimonial"
-            className="w-full rounded-lg shadow-lg"
+           className="w-full h-72 rounded-lg shadow-lg"
           />
           <div>
             <h3 className="text-3xl font-bold text-orange-500 mb-4">
@@ -34,7 +34,7 @@ const Testimonials = () => {
           <img
             src={testimonialTwo}
             alt="Client Testimonial"
-            className="w-full rounded-lg shadow-lg"
+           className="w-full h-72 rounded-lg shadow-lg"
           />
           <div>
             <h3 className="text-3xl font-bold text-orange-500 mb-4">
@@ -51,9 +51,9 @@ const Testimonials = () => {
         {/* Testimonial 3 */}
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <img
-            src={testimonialOne}
+            src={testimonialThree}
             alt="Client Testimonial"
-            className="w-full rounded-lg shadow-lg"
+           className="w-full h-72 rounded-lg shadow-lg"
           />
           <div>
             <h3 className="text-3xl font-bold text-orange-500 mb-4">
@@ -67,6 +67,7 @@ const Testimonials = () => {
           </div>
         </div>
 
+      
       </div>
     </section>
   );
