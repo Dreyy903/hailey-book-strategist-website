@@ -33,14 +33,13 @@ const Footer = () => {
           <h3 className="text-orange-500 font-semibold mb-3">Contact</h3>
 
           <p className="text-gray-400 text-sm">
-            hailey@email.com
+            haileydcalder@gmail.com <br/>
           </p>
 
           <p className="text-gray-400 text-sm mt-2">
             120 Adelaide Street West <br/>
             Suite 2500 <br/>
-            Toronto, ON M5H 1T1 <br/>
-            Canada
+            Toronto, ON M5H 1T1 Canada
           </p>
         </div>
 
