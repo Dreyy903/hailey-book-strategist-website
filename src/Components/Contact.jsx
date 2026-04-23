@@ -12,18 +12,12 @@ const Contact = () => {
           </h2>
 
           <p className="text-gray-300 mb-6">
-            If you’re an author looking to improve your book’s visibility,
+            If you're an author looking to improve your book's visibility,
             refine your manuscript, or build a stronger publishing strategy,
-            feel free to reach out.
+            feel free to reach out. Our team is ready to help.
           </p>
 
           <div className="space-y-4 text-gray-300">
-            <p>
-              <span className="text-orange-500 font-semibold">Email:</span>
-              <br />
-              haileydcalder@gmail.com
-            </p>
-
             <p>
               <span className="text-orange-500 font-semibold">Address:</span>
               <br />
@@ -38,16 +32,13 @@ const Contact = () => {
           </div>
         </div>
 
-
         {/* Contact Form */}
         <div className="bg-black p-8 rounded-lg shadow-lg">
-
           <form
             action="https://formspree.io/f/mojkljkp"
             method="POST"
             className="space-y-6"
           >
-
             <div>
               <label className="block mb-2 text-gray-300">Name</label>
               <input
@@ -84,7 +75,6 @@ const Contact = () => {
             >
               Send Message
             </button>
-
           </form>
         </div>
 

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import hamburgerWhite from "../assets/hamburger-white.png";
 import hamburgerBlack from "../assets/hamburger-black.jpg";
 import crossIcon from "../assets/cross-iconn.png";
-// import crossIcon from "../assets/cross-icon.svg";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,12 +29,10 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
-        {/* Logo */}
         <a href="#home" className="text-xl font-bold">
-          Hailey Calder
+          Ideal Success Literary
         </a>
 
-        {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-sm font-medium">
           {navLinks.map((link) => (
             <li key={link.id}>
@@ -44,7 +41,6 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          {/* Contact button in desktop */}
           <li>
             <a
               href="#contact"
@@ -55,7 +51,6 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* Mobile Menu Button */}
         <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
           <img
             src={menuOpen ? crossIcon : scrolled ? hamburgerBlack : hamburgerWhite}
@@ -65,7 +60,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Fullscreen Menu */}
       {menuOpen && (
         <div className="bg-black/90 backdrop-blur-md flex flex-col items-center justify-center space-y-8 text-white text-xl md:hidden">
           {navLinks.map((link) => (
@@ -78,8 +72,6 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-
-          {/* Single Contact Button at bottom */}
           <a
             href="#contact"
             onClick={() => setMenuOpen(false)}

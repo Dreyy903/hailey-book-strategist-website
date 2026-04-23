@@ -7,10 +7,11 @@ const Footer = () => {
 
         {/* Brand */}
         <div>
-          <h2 className="text-2xl font-bold mb-3">Hailey Calder</h2>
+          <h2 className="text-2xl font-bold mb-3">Ideal Success Literary</h2>
           <p className="text-gray-400 text-sm">
-            Professional editing and publishing strategy helping authors
-            transform manuscripts into publication-ready books.
+            A team of publishing strategists and editors helping authors
+            transform manuscripts into publication-ready books with lasting
+            market visibility.
           </p>
         </div>
 
@@ -18,27 +19,22 @@ const Footer = () => {
         <div>
           <h3 className="text-orange-500 font-semibold mb-3">Quick Links</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#team">Meet the Team</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" className="hover:text-orange-500 transition">Home</a></li>
+            <li><a href="#about" className="hover:text-orange-500 transition">About</a></li>
+            <li><a href="#services" className="hover:text-orange-500 transition">Services</a></li>
+            <li><a href="#portfolio" className="hover:text-orange-500 transition">Portfolio</a></li>
+            <li><a href="#testimonials" className="hover:text-orange-500 transition">Testimonials</a></li>
+            <li><a href="#team" className="hover:text-orange-500 transition">Meet the Team</a></li>
+            <li><a href="#contact" className="hover:text-orange-500 transition">Contact</a></li>
           </ul>
         </div>
 
         {/* Contact */}
         <div>
           <h3 className="text-orange-500 font-semibold mb-3">Contact</h3>
-
-          <p className="text-gray-400 text-sm">
-            haileydcalder@gmail.com <br/>
-          </p>
-
           <p className="text-gray-400 text-sm mt-2">
-            120 Adelaide Street West <br/>
-            Suite 2500 <br/>
+            120 Adelaide Street West <br />
+            Suite 2500 <br />
             Toronto, ON M5H 1T1 Canada
           </p>
         </div>
@@ -46,7 +42,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center text-gray-500 text-sm mt-10 border-t border-gray-800 pt-5">
-        © 2026 Hailey Calder. All rights reserved.
+        © 2026 Ideal Success Literary. All rights reserved.
       </div>
     </footer>
   );

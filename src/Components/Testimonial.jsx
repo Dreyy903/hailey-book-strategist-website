@@ -1,73 +1,59 @@
 import React from "react";
-import testimonialOne from "../assets/testimonial-one.png";
-import testimonialTwo from "../assets/testimonial-two.png";
-import testimonialThree from "../assets/testimonial-three.png";
+
+const testimonials = [
+  {
+    quote:
+      "Working with the Ideal Success Literary team completely transformed the trajectory of my book. The strategy behind the campaign brought visibility I never thought possible.",
+    author: "Romance Author, Self-Published",
+    title: "Author Success Story",
+  },
+  {
+    quote:
+      "The Goodreads and advertising strategy brought my book directly to readers who actually cared about the genre. The results spoke for themselves.",
+    author: "Thriller Author, Independent Publisher",
+    title: "Marketing Impact",
+  },
+  {
+    quote:
+      "Ideal Success Literary helped me shape not just my book, but my identity as an author. The branding strategy gave my work a clear direction and voice.",
+    author: "Literary Fiction Author",
+    title: "Author Branding Transformation",
+  },
+];
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="py-16 px-6 bg-gray-800 scroll-mt-24">
-      <div className="max-w-6xl mx-auto space-y-24">
-        <h2 className="text-5xl font-bold text-center mb-12 text-orange-500">
-          What Authors Say <span className="text-white">About Hailey's Work</span>
+    <section id="testimonials" className="py-20 px-6 bg-gray-900 scroll-mt-24">
+      <div className="max-w-5xl mx-auto">
+
+        <h2 className="text-5xl font-bold text-center mb-16 text-orange-500">
+          What Authors Say{" "}
+          <span className="text-white">About Our Work</span>
         </h2>
-        {/* Testimonial 1 */}
-        <div className="grid md:grid-cols-2 gap-10 items-center">
-          <img
-            src={testimonialOne}
-            alt="Client Testimonial"
-           className="w-full h-72 rounded-lg shadow-lg"
-          />
-          <div>
-            <h3 className="text-3xl font-bold text-orange-500 mb-4">
-              Author Success Story
-            </h3>
-            <p className="text-white">
-              “Working with Hailey completely transformed the trajectory of my
-              book. The strategy behind the campaign brought visibility I never
-              thought possible.”
-            </p>
-          </div>
+
+        <div className="space-y-12">
+          {testimonials.map((t, i) => (
+            <div
+              key={i}
+              className="border-l-4 border-orange-500 bg-black rounded-r-lg px-8 py-8 shadow-lg"
+            >
+              <h3 className="text-orange-500 font-semibold text-sm uppercase tracking-widest mb-4">
+                {t.title}
+              </h3>
+
+              <blockquote className="text-white text-xl italic leading-relaxed">
+                <span className="text-orange-500 text-5xl font-serif leading-none mr-1">"</span>
+                {t.quote}
+                <span className="text-orange-500 text-5xl font-serif leading-none ml-1">"</span>
+              </blockquote>
+
+              <p className="text-orange-400 font-semibold mt-6">
+                — {t.author}
+              </p>
+            </div>
+          ))}
         </div>
 
-        {/* Testimonial 2 - zigzag on desktop only */}
-        <div className="grid md:grid-cols-2 gap-10 items-center md:flex md:flex-row-reverse">
-          <img
-            src={testimonialTwo}
-            alt="Client Testimonial"
-           className="w-full h-72 rounded-lg shadow-lg"
-          />
-          <div>
-            <h3 className="text-3xl font-bold text-orange-500 mb-4">
-              Marketing Impact
-            </h3>
-            <p className="text-white">
-              “The Goodreads and advertising strategy brought my book directly
-              to readers who actually cared about the genre. The results spoke
-              for themselves.”
-            </p>
-          </div>
-        </div>
-
-        {/* Testimonial 3 */}
-        <div className="grid md:grid-cols-2 gap-10 items-center">
-          <img
-            src={testimonialThree}
-            alt="Client Testimonial"
-           className="w-full h-72 rounded-lg shadow-lg"
-          />
-          <div>
-            <h3 className="text-3xl font-bold text-orange-500 mb-4">
-              Author Branding Transformation
-            </h3>
-            <p className="text-white">
-              “Hailey helped me shape not just my book, but my identity as an
-              author. The branding strategy gave my work a clear direction and
-              voice.”
-            </p>
-          </div>
-        </div>
-
-      
       </div>
     </section>
   );

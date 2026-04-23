@@ -4,7 +4,6 @@ import projectTwo from "../assets/project-two.jpg";
 import projectThree from "../assets/project-three.jpg";
 import SocialProof from "./SocialProof";
 
-
 const Portfolio = () => {
   return (
     <section id="portfolio" className="py-5 px-3 bg-black text-black scroll-mt-24">
@@ -18,42 +17,50 @@ const Portfolio = () => {
 
           {/* Project 1 */}
           <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
-            <img src={projectOne} alt="Silent Horizon" className="w-full h-80 object-cover"/>
-            <div className="p-4">
-              <h3 className="font-bold text-xl text-orange-500 mb-2">Silent Horizon</h3>
-              <p className="text-white">Strategic story development and concept shaping.</p>
+            <img src={projectOne} alt="Silent Horizon" className="w-full h-80 object-cover" />
+            <div className="p-4 bg-gray-900">
+              <h3 className="font-bold text-xl text-orange-500 mb-1">Silent Horizon</h3>
+              <p className="text-gray-400 text-sm mb-2">Strategic story development and concept shaping.</p>
+              <p className="text-white text-sm">
+                <span className="text-orange-400 font-semibold">Outcome:</span> Manuscript restructured and positioned for submission to literary agents.
+              </p>
             </div>
           </div>
 
           {/* Project 2 */}
           <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
-            <img src={projectTwo} alt="Crimson Letters" className="w-full h-80 object-cover"/>
-            <div className="p-4">
-              <h3 className="font-bold text-xl text-orange-500 mb-2">Crimson Letters</h3>
-              <p className="text-white">Manuscript editing and refining for clarity and impact.</p>
+            <img src={projectTwo} alt="Crimson Letters" className="w-full h-80 object-cover" />
+            <div className="p-4 bg-gray-900">
+              <h3 className="font-bold text-xl text-orange-500 mb-1">Crimson Letters</h3>
+              <p className="text-gray-400 text-sm mb-2">Manuscript editing and refining for clarity and impact.</p>
+              <p className="text-white text-sm">
+                <span className="text-orange-400 font-semibold">Outcome:</span> Published independently with a full launch campaign, reaching top Goodreads lists.
+              </p>
             </div>
           </div>
 
           {/* Project 3 */}
           <div className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
-            <img src={projectThree} alt="Broken Quills" className="w-full h-80 object-cover"/>
-            <div className="p-4">
-              <h3 className="font-bold text-xl text-orange-500 mb-2">Broken Quills</h3>
-              <p className="text-white">Creative guidance preserving the author’s voice.</p>
+            <img src={projectThree} alt="Broken Quills" className="w-full h-80 object-cover" />
+            <div className="p-4 bg-gray-900">
+              <h3 className="font-bold text-xl text-orange-500 mb-1">Broken Quills</h3>
+              <p className="text-gray-400 text-sm mb-2">Creative guidance preserving the author's voice.</p>
+              <p className="text-white text-sm">
+                <span className="text-orange-400 font-semibold">Outcome:</span> Author secured a pitch meeting for cinematic adaptation within 3 months of launch.
+              </p>
             </div>
           </div>
 
-          </div>
+        </div>
       </div>
 
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mt-16 mb-12 text-orange-500 underline underline-offset">
           SOCIAL<span className="text-white"> PROOF</span>
-          </h2>
-          
+        </h2>
       </div>
 
-    <SocialProof />
+      <SocialProof />
 
     </section>
   );

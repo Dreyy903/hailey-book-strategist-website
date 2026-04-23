@@ -4,8 +4,76 @@ import eloide from "../assets/eloide.jpg";
 import aurora from "../assets/aurora.jpg";
 import eloise from "../assets/eloise.jpg";
 import averly from "../assets/averly.jpg";
-import lea from "../assets/lea.jpg"
-import audrey from "../assets/audrey.jpg"
+import lea from "../assets/lea.jpg";
+import audrey from "../assets/audrey.jpg";
+import lauren from "../assets/lauren.jpg";
+import sophia from "../assets/sophia.jpg";
+
+const teamMembers = [
+  {
+    img: ashley,
+    alt: "Ashley Greenwell",
+    name: "Ashley Greenwell",
+    role: "Author Visibility Strategist",
+    email: "ashleygreenwell.traction@gmail.com",
+  },
+  {
+    img: eloise,
+    alt: "Eloise V Brenton",
+    name: "Eloise V Brenton",
+    role: "Engagement Strategist",
+    email: "eloisebrenton04@gmail.com",
+  },
+  {
+    img: audrey,
+    alt: "Audrey J Langston",
+    name: "Audrey J Langston",
+    role: "Visibility & Authority Builder",
+    email: "audreyjlangston@gmail.com",
+  },
+  {
+    img: lauren,
+    alt: "Lauren Calder",
+    name: "Lauren Calder",
+    role: "Website Developer",
+    email: "laurenhcalder@gmail.com",
+  },
+  {
+    img: sophia,
+    alt: "Sophie I Beaumont",
+    name: "Sophie I Beaumont",
+    role: "Website Developer",
+    email: "laurenhcalder@gmail.com",
+  },
+  {
+    img: lea,
+    alt: "Lea A Patterson",
+    name: "Lea A Patterson",
+    role: "Book Launch Consultant",
+    email: "leapeterson09@gmail.com",
+  },
+  {
+    img: averly,
+    alt: "Averly Thorne",
+    name: "Averly Thorne",
+    role: "Audience Growth Partner",
+    email: "averlythorne04@gmail.com",
+  },
+  {
+    img: eloide,
+    alt: "Elodie S. Helena",
+    name: "Elodie S. Helena",
+    role: "Publishing Consultant",
+    email: "elodieshelena@gmail.com",
+  },
+  {
+    img: aurora,
+    alt: "Aurora Z. Harrington",
+    name: "Aurora Z. Harrington",
+    role: "Niche Clarity Consultant",
+    email: "aurorazharrington@gmail.com",
+  },
+];
 
 const Team = () => {
   return (
@@ -13,110 +81,32 @@ const Team = () => {
       <div className="max-w-6xl mx-auto text-center">
 
         <h2 className="text-4xl font-bold text-orange-500 mb-12">
-          Meet the top brilliant <span className="text-white underline underline-offset">intellects behind Hailey's success</span>
+          Meet the brilliant{" "}
+          <span className="text-white underline underline-offset-4">
+            intellects behind Ideal Success Literary Hub
+          </span>
         </h2>
 
-        <div className="grid md:grid-cols-4 gap-12">
-
-          {/* Hailey */}
-          <div className="flex flex-col items-center">
-            <img
-              src={ashley}
-              alt="Ashley Greenwell"
-              className="w-64 h-64 object-cover rounded-lg shadow-lg mb-4"
-            />
-            <h3 className="text-2xl font-semibold">Ashley Greenwell</h3>
-            <p className="text-gray-400">Author Visibility Strategist</p>
-            <p className="text-orange-500 mt-2">
-              ashleygreenwell.traction@gmail.com
-            </p>
-          </div>
-
-          {/* Eloise */}
-          <div className="flex flex-col items-center">
-            <img
-              src={eloise}
-              alt="Eloise V Brenton"
-              className="w-64 h-64 object-cover rounded-lg shadow-lg mb-4"
-            />
-            <h3 className="text-2xl font-semibold">Eloise V Brenton</h3>
-            <p className="text-gray-400">Engagement Strategist</p>
-            <p className="text-orange-500 mt-2">
-              eloisebrenton04@gmail.com
-            </p>
-          </div>
-
-          {/* Audrey */}
-          <div className="flex flex-col items-center">
-            <img
-              src={audrey}
-              alt="Audrey J Langston"
-              className="w-64 h-64 object-cover rounded-lg shadow-lg mb-4"
-            />
-            <h3 className="text-2xl font-semibold">Audrey J Langston</h3>
-            <p className="text-gray-400">Visibility & Authority Builder</p>
-            <p className="text-orange-500 mt-2">
-              averlythorne04@gmail.com
-            </p>
-          </div>
-
-          {/* Lea A Patterson */}
-          <div className="flex flex-col items-center">
-            <img
-              src={lea}
-              alt="Lea A Patterson"
-              className="w-64 h-64 object-cover rounded-lg shadow-lg mb-4"
-            />
-            <h3 className="text-2xl font-semibold">Lea A Patterson</h3>
-            <p className="text-gray-400">Book Launch Consultant</p>
-            <p className="text-orange-500 mt-2">
-              leapeterson09@gmail.com
-            </p>
-          </div>
-
-          {/* Averly */}
-          <div className="flex flex-col items-center">
-            <img
-              src={averly}
-              alt="Averly Thorne"
-              className="w-64 h-64 object-cover rounded-lg shadow-lg mb-4"
-            />
-            <h3 className="text-2xl font-semibold">Averly Thorne</h3>
-            <p className="text-gray-400">Audience Growth Partner</p>
-            <p className="text-orange-500 mt-2">
-              averlythorne04@gmail.com
-            </p>
-          </div>
-
-          {/* eloide */}
-          <div className="flex flex-col items-center">
-            <img
-              src={eloide}
-              alt="Elodie"
-              className="w-64 h-64 object-cover rounded-lg shadow-lg mb-4"
-            />
-            <h3 className="text-2xl font-semibold">Eloide S. Helena</h3>
-            <p className="text-gray-400">Publishing Consultant</p>
-            <p className="text-orange-500 mt-2">
-              elodieshelena@gmail.com
-            </p>
-          </div>
-
-          {/* Aurora */}
-          <div className="flex flex-col items-center">
-            <img
-              src={aurora}
-              alt="Aurora"
-              className="w-64 h-64 object-cover rounded-lg shadow-lg mb-4"
-            />
-            <h3 className="text-2xl font-semibold">Aurora Z. Harrington</h3>
-            <p className="text-gray-400">Funnel Builder</p>
-            <p className="text-orange-500 mt-2">
-              aurorazharrington@gmail.com
-            </p>
-          </div>
-
+        <div className="grid md:grid-cols-3 gap-12 justify-items-center">
+          {teamMembers.map((member) => (
+            <div key={member.name} className="flex flex-col items-center">
+              <img
+                src={member.img}
+                alt={member.alt}
+                className="w-56 h-56 object-cover rounded-lg shadow-lg mb-4"
+              />
+              <h3 className="text-xl font-semibold">{member.name}</h3>
+              <p className="text-gray-400 text-sm mt-1">{member.role}</p>
+              <a
+                href={`mailto:${member.email}`}
+                className="text-orange-500 text-sm mt-2 hover:text-orange-400 transition break-all"
+              >
+                {member.email}
+              </a>
+            </div>
+          ))}
         </div>
+
       </div>
     </section>
   );

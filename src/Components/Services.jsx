@@ -5,7 +5,7 @@ const Services = () => {
     <section id="services" className="py-5 px-3 bg-black text-white scroll-mt-24">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl font-bold text-center mb-12 text-orange-500">
-          SERVICES <span className="text-white">I OFFER</span> 
+          SERVICES <span className="text-white">WE OFFER</span> 
         </h2>
 
         <div className="grid md:grid-cols-3 gap-8">
