@@ -42,8 +42,8 @@ const teamMembers = [
     img: sophia,
     alt: "Sophie I Beaumont",
     name: "Sophie I Beaumont",
-    role: "Website Developer",
-    email: "laurenhcalder@gmail.com",
+    role: "Book Marketing & Consulting Agent",
+    email: "isophiebeaumont@gmail.com",
   },
   {
     img: lea,
