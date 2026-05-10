@@ -5,9 +5,9 @@ import aurora from "../assets/aurora.jpg";
 import eloise from "../assets/eloise.jpg";
 import averly from "../assets/averly.jpg";
 import lea from "../assets/lea.jpg";
-import audrey from "../assets/audrey.jpg";
 import lauren from "../assets/lauren.jpg";
 import sophia from "../assets/sophia.jpg";
+import whitmore from "../assets/whitmore.jpg"
 
 const teamMembers = [
   {
@@ -25,11 +25,11 @@ const teamMembers = [
     email: "eloisebrenton04@gmail.com",
   },
   {
-    img: audrey,
-    alt: "Audrey J Langston",
-    name: "Audrey J Langston",
+    img: whitmore,
+    alt: "Kaelani R Whitmore",
+    name: "Kaelani R Whitmore",
     role: "Visibility & Authority Builder",
-    email: "audreyjlangston@gmail.com",
+    email: "kaelanirwhitmore@gmail.com",
   },
   {
     img: lauren,
