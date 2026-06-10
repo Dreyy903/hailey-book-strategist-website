@@ -54,10 +54,10 @@ const teamMembers = [
   },
   {
     img: averly,
-    alt: "Averly Thorne",
-    name: "Averly Thorne",
+    alt: "Aurora Valmont",
+    name: "Aurora Valmont",
     role: "Audience Growth Partner",
-    email: "averlythorne04@gmail.com",
+    email: "auroravalmont0@gmail.com",
   },
   {
     img: eloide,
