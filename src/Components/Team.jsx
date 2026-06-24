@@ -1,21 +1,23 @@
 import React from "react";
-import ashley from "../assets/ashley.jpg";
+import primsore from "../assets/primsore.jpg";
 import eloide from "../assets/eloide.jpg";
 import aurora from "../assets/aurora.jpg";
 import eloise from "../assets/eloise.jpg";
-import averly from "../assets/averly.jpg";
+// import averly from "../assets/averly.jpg";
+import audrey from "../assets/audrey.jpg"
 import lea from "../assets/lea.jpg";
 import lauren from "../assets/lauren.jpg";
 import sophia from "../assets/sophia.jpg";
 import whitmore from "../assets/whitmore.jpg"
+// import valmont from "../assets/valmont.jpg"
 
 const teamMembers = [
   {
-    img: ashley,
-    alt: "Ashley Greenwell",
-    name: "Ashley Greenwell",
+    img: primsore,
+    alt: "Primrose Sinclair",
+    name: "Primrose Sinclair",
     role: "Author Visibility Strategist",
-    email: "ashleygreenwell.traction@gmail.com",
+    email: "primrosevioletesinclair@gmail.com",
   },
   {
     img: eloise,
@@ -53,11 +55,11 @@ const teamMembers = [
     email: "leapeterson09@gmail.com",
   },
   {
-    img: averly,
-    alt: "Aurora Valmont",
-    name: "Aurora Valmont",
+    img: audrey,
+    alt: "Audrey J. Langston",
+    name: "Audrey J. Langston",
     role: "Audience Growth Partner",
-    email: "auroravalmont0@gmail.com",
+    email: "audreyjlangston@gmail.com",
   },
   {
     img: eloide,
